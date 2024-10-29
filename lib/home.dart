@@ -25,10 +25,10 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final List<Candidate> candidates = [
-    Candidate(name: 'Kandidat 1', role: 'Ketua OSIS'),
-    Candidate(name: 'Kandidat 2', role: 'Ketua OSIS'),
-    Candidate(name: 'Kandidat 3', role: 'Wakil Ketua OSIS'),
-    Candidate(name: 'Kandidat 4', role: 'Wakil Ketua OSIS'),
+    Candidate(name: 'Lala 1', role: 'Ketua OSIS'),
+    Candidate(name: 'Lili 2', role: 'Ketua OSIS'),
+    Candidate(name: 'Lulu 3', role: 'Wakil Ketua OSIS'),
+    Candidate(name: 'Lila 4', role: 'Wakil Ketua OSIS'),
   ];
 
   final Set<String> votedCandidates = {};
